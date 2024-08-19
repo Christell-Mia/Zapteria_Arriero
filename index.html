@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatería El Arriero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Zapatería El Arriero</h1>
+        <nav>
+            <ul>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="promociones">
+        <h2>Promociones</h2>
+        <div class="promociones-container">
+            <img src="promocion1.jpg" alt="Promoción 1">
+            <img src="promocion2.jpg" alt="Promoción 2">
+            <img src="promocion3.jpg" alt="Promoción 3">
+        </div>
+    </section>
+
+    <section id="catalogo">
+        <h2>Catálogo</h2>
+        <a href="catalogo.pdf" download>Descargar Catálogo</a>
+    </section>
+
+    <section id="videos">
+        <h2>Videos de Publicidad</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="tips">
+        <h2>Tips sobre Zapatos</h2>
+        <article>
+            <h3>Cómo elegir el zapato perfecto para cada ocasión</h3>
+            <p>Los zapatos adecuados pueden hacer una gran diferencia en tu comodidad y estilo. Asegúrate de elegir un par que se ajuste bien y se adapte a la ocasión...</p>
+        </article>
+        <article>
+            <h3>Consejos para cuidar tus zapatos</h3>
+            <p>El mantenimiento adecuado prolongará la vida de tus zapatos. Limpia y acondiciona regularmente para mantenerlos en óptimas condiciones...</p>
+        </article>
+    </section>
+
+    <section id="noticias">
+        <h2>Noticias y Artículos sobre Colima</h2>
+        <article>
+            <h3>Descubre la belleza de Colima</h3>
+            <p>Colima es conocida por sus hermosos paisajes y su rica cultura. En este artículo exploramos algunos de los destinos imperdibles en la región...</p>
+        </article>
+        <article>
+            <h3>Eventos locales que no te puedes perder</h3>
+            <p>Colima ofrece una variedad de eventos culturales y festivos durante todo el año. Aquí te contamos sobre los más destacados...</p>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Teléfono: <a href="tel:+123456789">+123 456 789</a></p>
+        <p>Dirección: Calle del Rancho, 123, Pueblo</p>
+        <form id="formulario-cotizacion">
+            <h3>Solicita una Cotización</h3>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Zapatería El Arriero. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
